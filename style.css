@@ -1,0 +1,47 @@
+.ichiga{
+    height: 200px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 20px;
+}
+.box1{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5{
+    background-color: blue;
+    display: flex;
+    grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+}
+.box6{
+    background-color: greenyellow;
+    display: flex;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    justify-content: center;
+    align-items: center;
+}
